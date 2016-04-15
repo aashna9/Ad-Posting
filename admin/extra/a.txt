@@ -1,0 +1,83 @@
+-- phpMyAdmin SQL Dump
+-- version 3.2.0.1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Jul 19, 2013 at 09:35 AM
+-- Server version: 5.1.36
+-- PHP Version: 5.3.0
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `ad_posting`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `sub_categories`
+--
+
+CREATE TABLE IF NOT EXISTS `sub_categories` (
+  `s_name` varchar(30) NOT NULL,
+  `s_id` varchar(20) NOT NULL,
+  `c_id` varchar(20) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `sub_categories`
+--
+
+INSERT INTO `sub_categories` (`s_name`, `s_id`, `c_id`) VALUES
+('mobile handest', 's001', 'c06'),
+('mobile accessories', 's002', 'c06'),
+('computer sand accessories', 's003', 'c05'),
+('cameras and accessories', 's004', 'c05'),
+('computer and accessories', 's005', 'c05'),
+('CDs and DVDs', 's006', 'c05'),
+('home appliances ', 's007', 'c05'),
+('tools,machinery,industrial equ', 's008', 'c05'),
+('video-games and consoles', 's009', 'c05'),
+('cars', 's010', 'c09'),
+('motorcycles and scooters', 's011', 'c09'),
+('bicycles and auto-rickshaws', 's012', 'c09'),
+('buses,tempos and trucks', 's013', 'c09'),
+('spare parts and accessories', 's014', 'c09'),
+('tractors and agricultural equi', 's015', 'c09'),
+('houses:appartments for sale', 's016', 'c08'),
+('houses-appartments for rent', 's017', 'c08'),
+('land-plots for sale', 's018', 'c08'),
+('office,shops-commercial', 's019', 'c08'),
+('space', 's020', 'c08'),
+('paying guest,hotels', 's021', 'c08'),
+('vacation rentals and servicwe', 's022', 'c08'),
+('art,collectibles and hobbies', 's023', 'c07'),
+('books and magzines', 's024', 'c07'),
+('clothing and accessories', 's025', 'c07'),
+('for babies and children ', 's026', 'c07'),
+('furniture', 's027', 'c07'),
+('garden', 's028', 'c07'),
+('musical instrment', 's030', 'c07'),
+('jewellery and watches', 's029', 'c07'),
+('pets and accessories', 's032', 'c07'),
+('sports and fitness', 's031', 'c07'),
+('mobile phone apps', 's033', 'c06'),
+('mobile phone dealers', 's034', 'c06'),
+('mobile phone repair,services', 's035', 'c06'),
+('home decor furnishings', 's036', 'c07'),
+('coins and stamps', 's037', 'c07'),
+('barter exchange', 's038', 'c07'),
+('bags and luggage', 's039', 'c07'),
+('air conditioner and coolers', 's040', 'c07'),
+('toys and games', 's041', 'c07'),
+('discounted and sale items', 's042', 'c07'),
+('fashion accessories', 's043', 'c07'),
+('gifts and stationary', 's044', 'c07'),
+('wholesale and bulk', 's045', 'c07'),
+('antiques and handicrafts', 's046', 'c07'),
+('everything else', 's047', 'c07'),
+('fax,EPABX , office equipments', 's048', 'c05'),
+('UPS, invertors and generators', 's49', 'c05'),
+('office supplies', 's50', 'c05'),
+('i-pods,MP3 players', 's51', 'c07');
